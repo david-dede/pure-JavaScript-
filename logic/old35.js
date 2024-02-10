@@ -6,17 +6,15 @@
 // old35(10) → true
 // old35(15) → false
 
-
-
-function old35(n){
-if(n>=0){
-    
-        if(n%3 || n%5){
-        
-       if(n%3 && n%5){
-        return false
-       }return true
-    }return false
+function old35(n) {
+  if (n >= 0) {
+    if (n % 3 || n % 5) {
+      if (n % 3 && n % 5) {
+        return false;
+      }
+      return true;
+    }
+    return false;
+  }
 }
-}
-console.log(old35(15) );
+console.log(old35(15));
